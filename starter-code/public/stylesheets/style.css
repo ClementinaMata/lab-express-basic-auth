@@ -10,10 +10,11 @@ a {
 #form {
   margin: 30px auto;
   width: 380px;
+  
 }
 
 #form label {
-  color: #666;
+  color: darkblue;
   display: inline-block;
   margin-bottom: 10px;
   text-align: center;
@@ -27,11 +28,12 @@ a {
   outline: 0;
   padding: 4px;
   width: 100%;
+
 }
 
 #form button {
-  background: #43a3e6;
-  border: 1px solid #43a3e6;
+  background: darkblue;
+  border: 1px solid darkblue;
   border-radius: 4px;
   color: #fff;
   cursor: pointer;
@@ -46,6 +48,6 @@ a {
 
 #form button:hover {
   background: #fff;
-  color: #43a3e6;
+  color: darkblue;
   transition: .3s ease background;
 }
